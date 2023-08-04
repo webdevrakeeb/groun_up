@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,900&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: ;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #40A2CE;
+	font-family: 'Nunito', sans-serif;
+	font-family: 'Poppins', sans-serif;
+}
+
+.full-body {
+	max-width: 1230px;
+	background: #fff;
+	margin: auto;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul li {
+	display: inline-block;
+}
+
+
+
+
+/* header area css start */
+.header-area {
+	background: url('images/header-photo.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 600px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.header-overlay {
+	background: linear-gradient(rgba(74, 36, 9, 1), rgba(74, 36, 9, 0));
+	height: 600px;
+}
+
+.logo-menu-area {
+	padding: 15px 10px 0 40px;
+}
+
+.menu-area ul {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.menu-area ul li {
+	margin-right: 30px;
+}
+
+.menu-area ul li a {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: Nunito;
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.menu-area-text h2 {
+	color: #FFF;
+	text-shadow: 0px 5px 12px 0px #4A2409 !important;
+	font-family: Nunito;
+	font-size: 47px;
+	font-weight: 900;
+}
+
+.header-area {
+	position: relative;
+}
+
+.menu-area-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+/* header area css end */
+
+
+/* open time area css start */
+.open-time-area {
+	padding: 80px 0;
+}
+
+.open-area-text p {
+	color: #6B350E;
+	font-family: Nunito;
+	font-size: 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 0;	
+}
+
+.open-area-text h2 {
+	color: #6B350E;
+	font-family: Nunito;
+	font-size: 40px;
+	font-weight: 900;
+	margin-bottom: 5px;
+}
+
+.open-area-text h5 {
+	color: #6B350E;
+	font-family: Nunito;
+	font-size: 38px;
+	font-weight: 600;
+	margin-top: 26px;
+	margin-bottom: 0;
+}
+/* open time area css end */
+
+
+/* Friendly & knowledgeable baristas area css start */
+.friendly-text h3 {
+	color: #6B350E;
+	font-family: Nunito;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.friendly-text p {
+	color: #6B350E;
+	font-family: Nunito;
+	font-size: 22px;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+/* Friendly & knowledgeable baristas area css end */
+
+/* Comfortable, laid-back atmosphere area css start */
+.comfortable-area {
+	padding: 80px 0;
+}
+
+.comfortable-text h3 {
+	color: #6B350E;
+	font-family: Nunito;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.comfortable-text p {
+	color: #6B350E;
+	font-family: Nunito;
+	font-size: 22px;
+	font-weight: 400;
+}
+/* Comfortable, laid-back atmosphere area css end */
+
+/* Freshly roasted coffee beans area css start */
+.freshly-roasted-text h3 {
+	color: #6B350E;
+	font-family: Nunito;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.freshly-roasted-text p {
+	color: #6B350E;
+	font-family: Nunito;
+	font-size: 22px;
+	font-weight: 400;
+}
+/* Freshly roasted coffee beans area css end */
+
+
+/* coffee-shop-sign area css start */
+.coffee-shop-sign-area {
+	padding: 80px 0;
+}
+/* coffee-shop-sign area css end */
+
+
+/* menu area css start */
+.food-menu-area {
+	padding-bottom: 80px;
+}
+
+.drink-menu {
+	background: url('images/drink-menu.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 8px;
+	width: 100%;
+	height: 390px;
+}
+
+.drink-overlay, .food-overlay {
+	background: linear-gradient(rgba(74, 36, 9, 0)50%, rgba(74, 36, 9, 1));
+	height: 390px;
+	border-radius: 8px;
+	position: relative;
+}
+
+.drink-overlay h3,
+.food-overlay h3 {
+	color: #FFF;
+	font-family: Nunito;
+	font-size: 36px;
+	font-weight: 900;
+	text-transform: capitalize;
+	margin-bottom: 0;
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.food-menu {
+	background: url('images/food-menu.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 8px;
+	width: 100%;
+	height: 390px;
+}
+/* menu area css end  */
+.hr {
+	height: 1px;
+	background: #000;
+}
+
+
+/* footer area css start */
+.footer {
+	margin-top: 40px;
+}
+
+.contact-number p,
+.contact-mail p {
+	color: #6B350E;
+	font-family: Nunito;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.address h4 {
+	color: #6B350E;
+	font-family: Nunito;
+	font-size: 25px;
+	font-weight: 800;
+	margin-bottom: 30px;
+}
+
+.social-icon ul li {
+	margin-right: 15px;
+}
+
+.social-icon ul li a {
+	color: #fff;
+	background: #6B350E;
+	width: 40px;
+	height: 40px;
+	display: block;
+	line-height: 40px;
+	border-radius: 50%;
+	font-size: 22px;
+}
+
+.copy-right {
+	margin-top: 32px;
+	padding-bottom: 30px;
+}
+
+.copy-right p {
+	color: #6B350E;
+	font-family: Nunito;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0;
+	opacity: 0.6000000238418579;
+}
+/* footer area css end */
